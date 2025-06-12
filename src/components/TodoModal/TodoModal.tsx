@@ -36,7 +36,7 @@ export const TodoModal: React.FC<Props> = ({
     };
 
     fetchUser();
-  }, []);
+  }, [selectedTodo]);
 
   return (
     <>
